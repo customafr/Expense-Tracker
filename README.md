@@ -33,6 +33,12 @@ Tehniskāis apraksts:
 - Tika implementēts vienkārša grafisko lietotāja saskarne, izmantojot Swing
 - Tika implementēti 3 klases (DatabaseManager, DataBaseFunct, TestGUI)
 
+4. Programmas izmantošanai jāievada Databasemanager savu local adresi savienojumam ar DataBase, login un paroli:
+   
+   //data for DB connection
+    private static final String DB_URL = "jdbc:mysql://localhost:3306/izdevumu_gramata";
+    private static final String DB_USER = "root";
+    private static final String DB_PASSWORD = "manaparole";
 
 
 
